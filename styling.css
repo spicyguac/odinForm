@@ -22,7 +22,11 @@ body {
 .logoImage {
     display: flex;
     background-color: green;
-    max-width: 50vh;
+    min-width: 50vh;
+    background-image: url(../odinForm/images/halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 section {
@@ -46,3 +50,4 @@ fieldset {
     justify-content: space-between;
     width: 55vh;
 }
+
