@@ -10,16 +10,39 @@ body {
     display: flex;
     background-color: whitesmoke;
     max-width: 125vh;
+    min-height: 100vh;
 }
 
 .formArea {
     display: flex;
-    background-color: white;
     max-width: 75vh;
+    align-self: center;
 }
 
 .logoImage {
     display: flex;
     background-color: green;
     max-width: 50vh;
+}
+
+section {
+    padding-left: 35px;
+}
+
+.formInput {
+    background-color: white;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset {
+    display: flex;
+    flex-wrap: wrap;
+    border: 0;
+    padding: 0;
+    justify-content: space-between;
+    width: 55vh;
 }
