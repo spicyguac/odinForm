@@ -9,5 +9,17 @@ body {
 .content {
     display: flex;
     background-color: whitesmoke;
-    height: 100%;
+    max-width: 125vh;
+}
+
+.formArea {
+    display: flex;
+    background-color: white;
+    max-width: 75vh;
+}
+
+.logoImage {
+    display: flex;
+    background-color: green;
+    max-width: 50vh;
 }
