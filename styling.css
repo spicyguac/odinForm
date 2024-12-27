@@ -15,7 +15,7 @@ body {
 
 .formArea {
     display: flex;
-    max-width: 75vh;
+    min-width: 75vh;
     align-self: center;
 }
 
@@ -30,15 +30,17 @@ body {
 }
 
 section {
-    padding-left: 35px;
+    padding-left: 5vh;
 }
 
 .formInput {
     display: flex;
     background-color: white;
     flex-direction: column;
+    margin: 0;
     padding-top: 3px;
     padding-bottom: 10px;
+    min-width: 70vh;
 
 }
 
@@ -58,8 +60,22 @@ fieldset {
 }
 
 .description {
+    max-width: 65vh;
     padding-bottom: 5vh;
 }
 
+button {
+    color: white;
+    background-color: rgb(51, 117, 51);
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    border-radius: 10px;
+}
+
+.createAccount {
+    padding-top: 5vh;
+}
 
 
