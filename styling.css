@@ -23,6 +23,8 @@ body {
     display: flex;
     background-color: green;
     min-width: 50vh;
+    align-items: end;
+    justify-content: center;
     background-image: url(../odinForm/images/halie-west-25xggax4bSA-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -80,4 +82,23 @@ button {
     padding-top: 5vh;
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,.5);
+    font-size: 4rem;
+    margin-bottom: 60vh;
+    color: white;
+    min-width: 50vh;
+}
 
+img {
+    width: 10vh;
+    height: auto;
+}
+
+figcaption {
+    justify-self: center;
+    color: white;
+}
