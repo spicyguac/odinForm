@@ -41,7 +41,7 @@ section {
     padding-top: 3px;
     padding-bottom: 10px;
     min-width: 70vh;
-
+    box-shadow: 2px 2px 5px grey;
 }
 
 .inputs {
@@ -67,11 +67,13 @@ fieldset {
 button {
     color: white;
     background-color: rgb(51, 117, 51);
-    padding-top: 2vh;
-    padding-bottom: 2vh;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
     padding-left: 5vh;
     padding-right: 5vh;
     border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
 }
 
 .createAccount {
