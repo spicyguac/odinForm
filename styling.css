@@ -34,12 +34,18 @@ section {
 }
 
 .formInput {
+    display: flex;
     background-color: white;
+    flex-direction: column;
+    padding-top: 3px;
+    padding-bottom: 10px;
+
 }
 
 .inputs {
     display: flex;
     flex-direction: column;
+    margin-bottom: 2vh;
 }
 
 fieldset {
@@ -50,4 +56,10 @@ fieldset {
     justify-content: space-between;
     width: 55vh;
 }
+
+.description {
+    padding-bottom: 5vh;
+}
+
+
 
